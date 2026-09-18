@@ -1,4 +1,4 @@
-**# Dieta**
+# Dieta
 
 O gato Garfield comeu lasanhas demais nos últimos dias, o que está afetando seu metabolismo. Por isso, seu dono John decidiu colocá-lo em uma dieta muito rígida.
 
@@ -12,17 +12,17 @@ Para calcular quantas calorias Garfield já consumiu, John utiliza a seguinte co
 
 John é um humano e consegue calcular isso facilmente. Porém, Garfield é apenas um gato que gosta de comer. Portanto, dada a lista de refeições que Garfield já fez, ajude o gato a saber qual o máximo de calorias que ele ainda pode consumir, sem exceder o limite `M` determinado.
 
-**## Entrada**
+## Entrada
 
 A primeira linha da entrada contém dois inteiros `N` e `M`: a quantidade de refeições na lista de John e o limite de calorias, respectivamente.
 
 Cada uma das `N` linhas seguintes contém três inteiros `P`, `G` e `C`: as quantidades (em gramas) de proteínas, gorduras e carboidratos, respectivamente, de uma refeição na lista de John.
 
-**## Saída**
+## Saída
 
 Seu programa deverá imprimir uma única linha contendo um único inteiro: a quantidade máxima de calorias que Garfield ainda pode consumir sem exceder o limite `M`.
 
-**## Restrições**
+## Restrições
 
 É garantido que todo caso de teste satisfaz as restrições abaixo.
 
@@ -31,7 +31,7 @@ Seu programa deverá imprimir uma única linha contendo um único inteiro: a qua
 - `0 ≤ P, G, C ≤ 500`
 - O total de calorias nas refeições na lista de John não excede o limite `M`
 
-**## Informações sobre a pontuação**
+## Informações sobre a pontuação
 
 A tarefa vale `100` pontos. Estes pontos estão distribuídos em subtarefas, cada uma com suas **restrições adicionais** às definidas acima.
 
@@ -41,9 +41,9 @@ A tarefa vale `100` pontos. Estes pontos estão distribuídos em subtarefas, cad
 
 - **Subtarefa 3 (70 pontos)**: Sem restrições adicionais.
 
-**## Exemplos**
+## Exemplos
 
-**### Exemplo 1**
+### Exemplo 1
 
 **Entrada:**
 
