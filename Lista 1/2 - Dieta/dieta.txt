@@ -1,0 +1,4 @@
+1 3700
+50 300 200
+
+% swipl dieta.pl < dieta.txt
