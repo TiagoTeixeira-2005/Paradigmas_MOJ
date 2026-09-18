@@ -52,7 +52,7 @@ Seu programa deve imprimir uma única linha, contendo um único inteiro, corresp
 1
 ```
 
-### Exemplo 2
+### Exemplo 3
 
 **Entrada:**
 
