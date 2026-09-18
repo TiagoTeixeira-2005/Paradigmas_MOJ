@@ -1,0 +1,6 @@
+20 15 25
+
+% swipl receita_de_bolo.pl < receita_de_bolo.txt
+
+% 4 6 10 -> 2
+% 4 6 9  -> 1
