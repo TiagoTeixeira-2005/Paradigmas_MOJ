@@ -16,4 +16,5 @@ main :-
         A is (Farinha div 2),
         B is (Ovo div 3),
         C is (Leite div 5),
+        /* Encontra o menor valor da lista */
         min_list([A,B,C],X).

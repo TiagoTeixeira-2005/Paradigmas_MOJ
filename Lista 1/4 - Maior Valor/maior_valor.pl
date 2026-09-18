@@ -27,8 +27,11 @@ between_maior_menor(Maior, Menor, Valor) :-
     between_maior_menor(Proximo_Maior, Menor, Valor).
 
 somar_algarismo(I, Soma) :-
+    /* Transforma o número em uma lista de caracteres */
     number_chars(I, Algarismos),
+    /* Converte cada caractere em um número */
     maplist(atom_number, Algarismos, Numeros),
+    /* Soma o valor de cada algarismo */
     sum_list(Numeros, Soma).
 
 numero_escolhido(N, M, S, I) :-
