@@ -1,0 +1,5 @@
+80
+500
+12
+
+% swipl maior_valor.pl < maior_valor.txt
