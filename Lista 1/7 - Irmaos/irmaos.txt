@@ -1,0 +1,4 @@
+39
+40
+
+% swipl irmaos.pl < irmaos.txt

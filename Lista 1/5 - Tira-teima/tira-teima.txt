@@ -1,0 +1,3 @@
+432 10
+
+% swipl tira-teima.pl < tira-teima.txt
