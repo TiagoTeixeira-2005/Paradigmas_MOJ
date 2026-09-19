@@ -1,0 +1,4 @@
+0
+5
+
+% swipl ogro.pl < ogro.txt

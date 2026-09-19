@@ -10,7 +10,7 @@ main :-
     write(Orlando),
     halt.
 
+:- initialization(main, main).
+
 idade(Oscar, Otavio, Orlando) :- 
     Orlando is 2 * Otavio - Oscar.
-
-:- initialization(main, main).
