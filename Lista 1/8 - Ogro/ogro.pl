@@ -1,14 +1,13 @@
-main :- 
-    read_line_to_string(user_input, S1),
-    read_line_to_string(user_input, S2),
+main :-
+    read_string(user_input, "\n", "\n", _, S1),
+    read_string(user_input, "\n", "\n", _, S2),
 
-    atom_number(S1, Mao_Esquerda),
-    atom_number(S2, Mao_Direita),
+    number_string(Mao_Esquerda, S1),
+    number_string(Mao_Direita, S2),
 
     aritmetica(Mao_Esquerda, Mao_Direita, Resultado),
 
-    write(Resultado),
-    halt.
+    write(Resultado).
 
 :- initialization(main, main).
 

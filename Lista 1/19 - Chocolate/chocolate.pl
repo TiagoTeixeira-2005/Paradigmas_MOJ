@@ -1,7 +1,7 @@
 main :- 
-    read_line_to_string(user_input, S1),
+    read_string(user_input, "\n", "\n", _, S1),
 
-    atom_number(S1, L),
+    number_string(L, S1),
 
     chocolate(L, Resultado),
 

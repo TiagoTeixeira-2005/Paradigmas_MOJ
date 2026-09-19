@@ -1,9 +1,9 @@
 main :- 
-    read_line_to_string(user_input, S1),
-    read_line_to_string(user_input, S2),
+    read_string(user_input, "\n", "\n", _, S1),
+    read_string(user_input, "\n", "\n", _, S2),
 
-    atom_number(S1, Oscar),
-    atom_number(S2, Otavio),
+    number_string(Oscar, S1),
+    number_string(Otavio, S2),
 
     idade(Oscar, Otavio, Orlando),
 

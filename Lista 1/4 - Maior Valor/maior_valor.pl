@@ -1,11 +1,13 @@
 main :- 
-    read_line_to_string(user_input, S1),
-    read_line_to_string(user_input, S2),
-    read_line_to_string(user_input, S3),
 
-    atom_number(S1, N),
-    atom_number(S2, M),
-    atom_number(S3, S),
+    read_string(user_input, "\n", "\n", _, S1),
+    read_string(user_input, "\n", "\n", _, S2),
+    read_string(user_input, "\n", "\n", _, S3),
+
+
+    number_string(N, S1),
+    number_string(M, S2),
+    number_string(S, S3),
 
     numero_escolhido(N, M, S, I),
 
@@ -27,11 +29,8 @@ between_maior_menor(Maior, Menor, Valor) :-
     between_maior_menor(Proximo_Maior, Menor, Valor).
 
 somar_algarismo(I, Soma) :-
-    /* Transforma o número em uma lista de caracteres */
     number_chars(I, Algarismos),
-    /* Converte cada caractere em um número */
     maplist(atom_number, Algarismos, Numeros),
-    /* Soma o valor de cada algarismo */
     sum_list(Numeros, Soma).
 
 numero_escolhido(N, M, S, I) :-
