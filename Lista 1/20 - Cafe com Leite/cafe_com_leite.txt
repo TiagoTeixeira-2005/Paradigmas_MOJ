@@ -1,0 +1,6 @@
+130
+150
+170
+30
+
+% swipl cafe_com_leite.pl < cafe_com_leite.txt
