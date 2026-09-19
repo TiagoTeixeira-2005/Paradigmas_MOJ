@@ -7,12 +7,13 @@ main :-
 
     aritmetica(Mao_Esquerda, Mao_Direita, Resultado),
 
-    write(Resultado).
-
-:- initialization(main, main).
+    write(Resultado),
+    halt.
 
 aritmetica(Mao_Esquerda, Mao_Direita, Resultado) :-
     ( Mao_Esquerda > Mao_Direita ->
         Resultado is Mao_Esquerda + Mao_Direita;
         Resultado is 2 * (Mao_Direita - Mao_Esquerda)
     ).
+
+:- initialization(main, main).

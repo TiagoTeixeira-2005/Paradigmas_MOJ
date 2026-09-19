@@ -1,0 +1,6 @@
+2002
+560
+560
+882
+
+% swipl mobile.pl < mobile.txt
