@@ -1,0 +1,5 @@
+22
+25
+22
+
+% swipl idade_de_camila.pl < idade_de_camila.txt
