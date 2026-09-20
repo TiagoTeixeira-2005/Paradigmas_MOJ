@@ -1,0 +1,8 @@
+5
+100
+99900
+400000
+500000
+600000
+
+% swipl premio_do_milhao.pl < premio_do_milhao.txt
