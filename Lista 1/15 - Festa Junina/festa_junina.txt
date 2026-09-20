@@ -1,0 +1,5 @@
+4
+25
+17
+
+% swipl festa_junina.pl < festa_junina.txt
