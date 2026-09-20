@@ -1,0 +1,4 @@
+17
+18
+
+% swipl cinema.pl < cinema.txt

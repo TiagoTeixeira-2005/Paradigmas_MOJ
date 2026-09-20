@@ -1,0 +1,3 @@
+6 6 6 6
+
+% swipl tomadas.pl < tomadas.txt
